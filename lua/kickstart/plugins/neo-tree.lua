@@ -22,4 +22,7 @@ return {
       },
     },
   },
+  config = function()
+    vim.keymap.set('n', '<leader>n', ':Neotree filesystem reveal float<CR>', { desc = '[N]eoTree' })
+  end,
 }
